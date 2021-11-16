@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-
         <item
             android:id="@+id/nav_allfiles"
             android:icon="@drawable/ic_baseline_folder_open_24"
@@ -13,11 +13,13 @@
             android:id="@+id/nav_favourites"
             android:icon="@drawable/ic_baseline_favorite_24"
             android:title="@string/menu_favourites" />
-
     </group>
 
-    <item android:title="Reading corner"
+
+
+    <item android:title="@string/rc"
         android:menuCategory="secondary">
+
         <menu>
             <item
                 android:id="@+id/nav_thestar"
@@ -34,25 +36,19 @@
                 android:icon="@drawable/ic_baseline_chrome_reader_mode_24"
                 android:title="The Sun"
                 android:menuCategory="secondary"/>
-
-
         </menu>
-
     </item>
 
-    <item android:title="Other"
+
+
+    <item android:title="@string/other"
         android:menuCategory="secondary">
         <menu>
             <item
                 android:id="@+id/nav_settings"
                 android:icon="@drawable/ic_baseline_settings_24"
-                android:title="Settings"
+                android:title="@string/menu_settings"
                 android:menuCategory="secondary"/>
-
         </menu>
-
     </item>
-
-
 </menu>
-

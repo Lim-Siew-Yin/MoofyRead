@@ -34,9 +34,12 @@
 
     <string name="add_fav_button">Insert</string>
     <string name="add_fav_title">Favourite Document</string>
-    <string name="doc_name">Document Name</string>
+    <string name="doc_name">Document Title</string>
     <string name="doc_author">Author Name</string>
-    <string name="hint_doc_name">Document Name</string>
+    <string name="hint_doc_name">Document Title</string>
     <string name="hint_doc_author">Document Author</string>
+    <string name="successful">Data inserted successfully</string>
+    <string name="fail">Data inserted failed</string>
+    <string name="doc_required">Document title is required</string>
 
 </resources>

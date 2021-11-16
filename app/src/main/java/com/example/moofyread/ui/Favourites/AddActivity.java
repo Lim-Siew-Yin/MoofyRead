@@ -34,7 +34,7 @@ public class AddActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //if field is empty
                 if (mDocName.getText().toString().isEmpty()) {
-                    mDocName.setError("Document name is required");
+                    mDocName.setError(getString(R.string.doc_required));
                 }else {
 
                     try{
@@ -44,12 +44,12 @@ public class AddActivity extends AppCompatActivity {
                                 mDocAuthor.getText().toString());
 
                         //toast message to indicate data insert success
-                        Toast.makeText(AddActivity.this, "Data inserted successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddActivity.this, getString(R.string.successful), Toast.LENGTH_SHORT).show();
 
                     } catch (Exception e){
                         //toast message to indicate data insert failed
                         //e.printStackTrace();
-                        Toast.makeText(AddActivity.this, "Data inserted successfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddActivity.this, getString(R.string.fail), Toast.LENGTH_SHORT).show();
                     }
 
                 }

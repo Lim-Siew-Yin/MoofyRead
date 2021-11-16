@@ -40,5 +40,8 @@
     <string name="doc_author">作者名字</string>
     <string name="hint_doc_name">文件名字</string>
     <string name="hint_doc_author">作者名字</string>
+    <string name="successful">资料输入成功</string>
+    <string name="fail">资料输入失败</string>
+    <string name="doc_required">请输入文件名字</string>
 
 </resources>
