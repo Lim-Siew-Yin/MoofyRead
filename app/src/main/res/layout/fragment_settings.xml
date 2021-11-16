@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Settings.SettingsFragment">
+
+
+    <EditText
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/textName"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnsave"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnchange"
+        android:text="@string/btnchange"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="30dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/currentusername"
+        android:text="@string/currentusername"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showname"
+        android:text="@string/showname"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="110dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="308dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/about"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="385dp"
+        android:layout_height="549dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/description"
+        android:textSize="19sp" />
+
+</RelativeLayout>

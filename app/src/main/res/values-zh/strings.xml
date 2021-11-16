@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">MoofyRead</string>
+    <string name="nav_header_title">MoofyRead</string>
+    <string name="nav_header_subtitle">"Reading is a passport to countless adventures."-Mary Pope Osborne</string>
+    <string name="menu_allfiles">我的资料</string>
+    <string name="menu_collections">收藏</string>
+    <string name="menu_favourites">喜欢</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_thestar">The Star</string>
+    <string name="menu_tst">The Straits Times</string>
+    <string name="menu_thesun">The Sun</string>
+    <string name="btnthesun">The Sun</string>
+    <string name="btnthestar">The Star</string>
+    <string name="btntst">The Straits Times</string>
+    <string name="textName">输入你的名字</string>
+    <string name="btnsave">保存</string>
+    <string name="btnchange">更换</string>
+    <string name="showname">(你的名字)</string>
+    <string name="about">关于 MoofyRead:</string>
+    <string name="description">版本 21.01.01 \n\n有何更新？ \n-支持日间与夜间模式 \n-添加阅读角落
+        \n-阅读时可自由更换网上报纸 \n-获得网上最新消息
+        \n-无限修改名字 \n-系统提示网络问题
+        \n-一键退出功能 \n-支持中文及英文
+        \n\n更新版本日期: 10/11/2021</string>
+    <string name="rc">阅读角落</string>
+    <string name="other">其他</string>
+    <string name="currentusername">当前用户名：</string>
+    <string name="message">"已保存成功"</string>
+    <string name="exitmessage">是否确定退出?</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="internet">链接失败，请检查网络设置</string>
+    <string name="error">系统错误</string>
+
+    <string name="add_fav_button">加入</string>
+    <string name="add_fav_title">喜爱的文件</string>
+    <string name="doc_name">文件名字</string>
+    <string name="doc_author">作者名字</string>
+    <string name="hint_doc_name">文件名字</string>
+    <string name="hint_doc_author">作者名字</string>
+
+</resources>

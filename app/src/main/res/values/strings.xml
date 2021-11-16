@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MoofyRead</string>
+    <string name="nav_header_title">MoofyRead</string>
+    <string name="nav_header_subtitle">"Reading is a passport to countless adventures."-Mary Pope Osborne</string>
+    <string name="menu_allfiles">My Documents</string>
+    <string name="menu_collections">Collections</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_thestar">The Star</string>
+    <string name="menu_tst">The Straits Times</string>
+    <string name="menu_thesun">The Sun</string>
+    <string name="btnthesun">The Sun</string>
+    <string name="btnthestar">The Star</string>
+    <string name="btntst">The Straits Times</string>
+    <string name="textName">Enter username</string>
+    <string name="btnsave">Save</string>
+    <string name="btnchange">Change</string>
+    <string name="showname">(Your name)</string>
+    <string name="about">About MoofyRead:</string>
+    <string name="description">Version 21.01.01 \n\nWhat\'s new? \n-Support Dark Mode and Day Mode \n-Added Reading corner
+        \n-Users can switch to different newspapers even while reading \n-Latest news available with Internet
+        \n-Username can be modified and stored with unlimited times \n-Message dialog will be shown when there is no Internet connection
+        \n-Exit the app with just a click at top right corner \n-Support English and Chinese Languages
+        \n\nLast updated: 10/11/2021</string>
+    <string name="rc">Reading corner</string>
+    <string name="other">Other</string>
+    <string name="currentusername">Current username：</string>
+    <string name="message">"Your changes have been saved"</string>
+    <string name="exitmessage">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="internet">Check your internet connection and try again.</string>
+    <string name="error">Error</string>
+
+    <string name="add_fav_button">Insert</string>
+    <string name="add_fav_title">Favourite Document</string>
+    <string name="doc_name">Document Name</string>
+    <string name="doc_author">Author Name</string>
+    <string name="hint_doc_name">Document Name</string>
+    <string name="hint_doc_author">Document Author</string>
+
+</resources>

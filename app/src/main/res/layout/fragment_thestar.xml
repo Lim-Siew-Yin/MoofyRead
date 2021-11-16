@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.TheStar.TheStarFragment">
+
+
+    <Button
+        android:id="@+id/btntst"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="19dp"
+        android:backgroundTint="#F8F4F4"
+        android:textColor="#FF000000"
+        android:text="The Straits Times" />
+
+    <Button
+        android:id="@+id/btnthesun"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F8F4F4"
+        android:textColor="#FF000000"
+        android:text="The Sun" />
+
+    <WebView
+        android:id="@+id/webviewthestar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp">
+
+    </WebView>
+
+
+</RelativeLayout>
